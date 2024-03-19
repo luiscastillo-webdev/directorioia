@@ -263,7 +263,7 @@ const Data = [
     bgdestacado: "freemiun",
   },
   {
-    id: 21,
+    id: 26,
     nombre: "Eleven Labs",
     descrip:
       "Convierta texto a voz en línea de forma gratuita con nuestro generador de voz con IA. En cualquier idioma.",
@@ -272,6 +272,28 @@ const Data = [
     img: "elevenlabs",
     url: "https://elevenlabs.io/",
     bgdestacado: "freemiun",
+  },
+  {
+    id: 27,
+    nombre: "AudioStrip",
+    descrip:
+      "La mejor herramienta en línea utilizada por músicos para separar las voces de la música de acompañamiento en archivos de audio.",
+    categoria: "Productividad",
+    pago: "Freemiun",
+    img: "audiostrip",
+    url: "https://www.audiostrip.co.uk/",
+    bgdestacado: "freemiun",
+  },
+  {
+    id: 28,
+    nombre: "Cody Para Empresas",
+    descrip:
+      "Cody es un asistente de IA como ChatGPT, puedes entrenarlo para tu empresa, responder preguntas, solucionar problemas y generar ideas.",
+    categoria: "Productividad",
+    pago: "De Pago",
+    img: "cody",
+    url: "https://meetcody.ai/",
+    bgdestacado: "pago",
   },
   //{id:21,nombre:'Eleven Labs',descrip:'Convierta texto a voz en línea de forma gratuita con nuestro generador de voz con IA. En cualquier idioma, perfecto para creadores de vídeos, desarrolladores y empresas.',categoria:'Productividad',pago:'Freemiun',img:'kreaai',url:'https://elevenlabs.io/',bgdestacado:''},
 ];
