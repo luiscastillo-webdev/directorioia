@@ -2,6 +2,7 @@ import React from "react";
 import Cta from "../components/Cta";
 import { useForm, ValidationError } from "@formspree/react";
 import { NavLink } from "react-router-dom";
+import Encabezado from "./Encabezado";
 
 const EnviaTuIa = () => {
   function ContactForm() {
@@ -76,8 +77,9 @@ const EnviaTuIa = () => {
 
   return (
     <>
+      <Encabezado tituloencabezado="Envía tu aplicación" />
       <div className="relative flex flex-col max-w-screen-xl mx-auto justify-center">
-        <div class="flex flex-col items-center justify-center my-10">
+        <div class="flex flex-col items-center justify-center my-3">
           <div class="w-full max-w-md bg-white rounded-lg shadow-md p-10">
             <h2 class="text-2xl font-bold text-gray-900 mb-4">Enviar tu APP</h2>
             <ContactForm />
