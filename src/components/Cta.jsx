@@ -1,11 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Cta = ({ titulo, descrip, texto, icono }) => {
+const Cta = ({ titulo, descrip, texto, url, target }) => {
   return (
-    <div id="contacto" className="w-full md:p-2">
-      <div className="grid md:gap-4">
-        <div className="max-w-screen-lg mx-auto text-white md:text-2xl md:px-[6rem] py-[3rem] rounded-xl bg-gradient-to-r from-orange-500 to-amber-700">
+    <div id="contacto" className="max-w-screen-xl mx-auto my-1">
+      <div className="grid">
+        <div className="text-white md:text-2xl md:px-[6rem] py-[3rem] rounded-xl bg-gradient-to-r from-sky-500 to-indigo-500">
           <div className="justify-center items-center text-center mb-3">
             <h3 className="uppercase w-auto pb-5">{titulo}</h3>
             <p>{descrip}</p>
@@ -17,7 +17,7 @@ const Cta = ({ titulo, descrip, texto, icono }) => {
               <div className="absolute z-10 w-32 h-32 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-700 delay-150 group-hover:delay-150"></div>
               <div className="absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-200"></div>
               <div className="absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-500 delay-150 group-hover:delay-300"></div>
-              <NavLink to="/contacto" className="z-10">
+              <NavLink to={`${url}`} target={`${target}`} className="z-10">
                 {texto}
               </NavLink>
             </button>

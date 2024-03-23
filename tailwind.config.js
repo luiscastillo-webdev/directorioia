@@ -8,8 +8,12 @@ export default {
     extend: {
       fontFamily: {
       sans: ['Kanit', 'sans-serif'],
-      fontWeight: 400,
+      fontWeight: 200,
     },
+    backgroundImage: {
+        'hero-pattern': "url('./assets/ciudadia.png')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
     
     },
   },

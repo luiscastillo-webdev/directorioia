@@ -2,6 +2,7 @@ import { useState } from "react";
 import Encabezado from "./Encabezado";
 import { CiSearch } from "react-icons/ci";
 import Tabs from "./Tabs";
+import Contenido from "./Contenido";
 
 const Home = ({ tituloencabezado }) => {
   const [busqueda, setBusqueda] = useState("");
@@ -29,6 +30,7 @@ const Home = ({ tituloencabezado }) => {
         </div>
         <Tabs busqueda={busqueda} setBusqueda={setBusqueda} />
       </div>
+      <Contenido />
     </>
   );
 };

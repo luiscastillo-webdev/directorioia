@@ -24,13 +24,17 @@ const Pagination = ({ totalIa, setCurrentPage, currentPage, iaPorPagina }) => {
       <div className="flex flex-1 justify-between sm:hidden">
         <a
           onClick={paginaPrevia}
-          className="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
+          className={`relative ${
+            currentPage === 1 ? "hidden" : ""
+          } inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50`}
         >
           Anterior
         </a>
         <a
           onClick={paginaProx}
-          className="relative ml-3 inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
+          className={`relative ${
+            currentPage >= pageNumber.length ? "hidden" : ""
+          } ml-3 inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50`}
         >
           Siguiente
         </a>

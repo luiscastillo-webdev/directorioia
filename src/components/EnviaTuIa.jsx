@@ -78,19 +78,21 @@ const EnviaTuIa = () => {
   return (
     <>
       <Encabezado tituloencabezado="Envía tu aplicación" />
-      <div className="relative flex flex-col max-w-screen-xl mx-auto justify-center">
+      <div className="relative grid mx-auto justify-center">
         <div class="flex flex-col items-center justify-center my-3">
-          <div class="w-full max-w-md bg-white rounded-lg shadow-md p-10">
+          <div class="w-[800px] bg-white rounded-lg shadow-md p-10">
             <h2 class="text-2xl font-bold text-gray-900 mb-4">Enviar tu APP</h2>
             <ContactForm />
           </div>
         </div>
-        <Cta
-          titulo="Transforma tu idea en realidad con mi ayuda"
-          descrip="No esperes más y agenda tu cita conmigo. Te ofreceré un presupuesto personalizado y sin compromiso."
-          texto="Contáctame"
-        />
       </div>
+      <Cta
+        titulo="Hosting y Dominio"
+        descrip="El mejor hosting de Venezuela para tu nuevo emprendimiento, si aún no sabes cual empresa de hosting elegir, lo mejor puedes pagar en Bs."
+        texto="Visitalos"
+        url="https://www.e-hosting.com.ve/clientes/aff.php?aff=1292"
+        target="_blank"
+      />
     </>
   );
 };

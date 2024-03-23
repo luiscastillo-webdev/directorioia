@@ -295,7 +295,117 @@ const Data = [
     url: "https://meetcody.ai/",
     bgdestacado: "pago",
   },
-  //{id:21,nombre:'Eleven Labs',descrip:'Convierta texto a voz en línea de forma gratuita con nuestro generador de voz con IA. En cualquier idioma, perfecto para creadores de vídeos, desarrolladores y empresas.',categoria:'Productividad',pago:'Freemiun',img:'kreaai',url:'https://elevenlabs.io/',bgdestacado:''},
+  {
+    id: 29,
+    nombre: "Fitness AI",
+    descrip:
+      "FitnessAI para iPhone utiliza inteligencia artificial para generar entrenamientos personalizados.",
+    categoria: "Estilo de vida",
+    pago: "Gratis",
+    img: "fitnessai",
+    url: "https://www.fitnessai.com/",
+    bgdestacado: "gratis",
+  },
+  {
+    id: 30,
+    nombre: "AI Meal Planner",
+    descrip:
+      "Crea deliciosos planes semanales de comidas saludables, ideal para hacer dieta y comer sano.",
+    categoria: "Estilo de vida",
+    pago: "Gratis",
+    img: "imeal",
+    url: "https://casadesante.com/pages/a-i-meal-planner",
+    bgdestacado: "gratis",
+  },
+  {
+    id: 31,
+    nombre: "Chef Gpt",
+    descrip:
+      "No sabes que cocinar?, tienes pocos ingredientes? Chef Gpt te prepara la receta con IA y podrás hacer una rica comida.",
+    categoria: "Estilo de vida",
+    pago: "Freemiun",
+    img: "chefgpt",
+    url: "https://www.chefgpt.xyz/es?via=appsai",
+    bgdestacado: "freemiun",
+  },
+  {
+    id: 32,
+    nombre: "Wonderplan",
+    descrip:
+      "Su planificador de viajes personal y curador de viajes, creando itinerarios personalizados adaptados a sus intereses y presupuesto.",
+    categoria: "Estilo de vida",
+    pago: "Gratis",
+    img: "wonderplan",
+    url: "https://wonderplan.ai/",
+    bgdestacado: "gratis",
+  },
+  {
+    id: 33,
+    nombre: "Dream Interpreter AI",
+    descrip:
+      "Deseas saber el signficado de tu sueño? Con esta aplicación lo podras saber, solo escribe tu sueño y te dira lo que deseas saber.",
+    categoria: "Estilo de vida",
+    pago: "Gratis",
+    img: "dreamia",
+    url: "https://www.dreaminterpreter.ai/",
+    bgdestacado: "gratis",
+  },
+  {
+    id: 34,
+    nombre: "Grok AI",
+    descrip:
+      "Elon Musk no se quedo atrás y ha creado su propia herramienta de IA, totalmente gratis.",
+    categoria: "Productividad",
+    pago: "Gratis",
+    img: "grok",
+    url: "https://grok.x.ai/",
+    bgdestacado: "gratis",
+  },
+  {
+    id: 35,
+    nombre: "Theselyricsdonotexist",
+    descrip:
+      "Genera letras para canciones totalmente originales, usa la IA para generar coros y versos originales por genero, topico y humor.",
+    categoria: "Estilo de vida",
+    pago: "Gratis",
+    img: "lyrics",
+    url: "https://theselyricsdonotexist.com/",
+    bgdestacado: "gratis",
+  },
+  {
+    id: 36,
+    nombre: "AI Jingle Maker",
+    descrip:
+      "Puedes elegir una intro, un fondo, una salida, crear tu voz en off con IA y dejar que JINGLEMAKER genere mágicamente tu jingle.",
+    categoria: "Audio/Video",
+    pago: "De Pago",
+    img: "jinglemaker",
+    url: "https://www.aijinglemaker.com/",
+    bgdestacado: "pago",
+  },
+  {
+    id: 37,
+    nombre: "Render Forest",
+    descrip:
+      "Crea videos explicativos y promocionales formidables, intros de calidad, visualizaciones de música y mucho más.",
+    categoria: "Audio/Video",
+    pago: "Freemiun",
+    img: "renderforest",
+    url: "https://www.renderforest.com/",
+    bgdestacado: "freemiun",
+  },
+  {
+    id: 38,
+    nombre: "Fliki AI",
+    descrip:
+      "Crea videos a partir de texto, fácil de usar con voces en off realistas, videoclips dinámicos de IA y una amplia gama de funciones.",
+    categoria: "Audio/Video",
+    pago: "Freemiun",
+    img: "fliki",
+    url: "https://fliki.ai/?via=a61aff",
+    bgdestacado: "freemiun",
+  },
+  //{id:21,nombre:' ',descrip:' .',categoria:' ',pago:' ',img:'fitnessai',url:'https://fliki.ai/?via=a61aff',bgdestacado:''},
 ];
 
 export default Data;
