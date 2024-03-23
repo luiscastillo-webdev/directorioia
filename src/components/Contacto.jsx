@@ -69,12 +69,12 @@ const Contacto = () => {
   return (
     <>
       <Encabezado tituloencabezado="Contacto" />
-      <div className="max-w-screen-xl mx-auto rounded-xl bg-gray-200 p-6 grid grid-cols-3 gap-4 justify-center items-center">
+      <div className="max-w-screen-xl mx-auto rounded-xl bg-gray-200 p-6 grid sm:grid-cols-1 md:grid-cols-4 gap-2 justify-center">
         <div className="col-span-2">
           <ContactForm />
         </div>
-        <div className="p-6">
-          <img className="rounded-md mx-auto h-auto" src={`${PostPunk}`} />
+        <div className="col-span-2">
+          <img className="rounded-md" src={`${PostPunk}`} />
         </div>
       </div>
     </>

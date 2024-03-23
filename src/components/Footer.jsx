@@ -3,33 +3,33 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-200 text-center text-white dark:bg-slate-600">
+    <footer className="max-w-screen-xl mx-auto my-3 rounded-lg bg-slate-200 text-center text-white dark:bg-slate-600">
       <div className="container pt-9">
         <div className="mb-9 flex justify-center">
           <NavLink
             to="/nosotros"
-            className="mr-9 text-neutral-800 dark:text-neutral-200"
+            className="mr-3 md:mr-9 text-neutral-800 dark:text-neutral-200"
           >
             Sobre Nosotros
           </NavLink>
           <NavLink
             to="/legal"
             rel="nofollow"
-            className="mr-9 text-neutral-800 dark:text-neutral-200"
+            className="mr-3 md:mr-9 text-neutral-800 dark:text-neutral-200"
           >
             Legal
           </NavLink>
           <NavLink
             to="/privacidad"
             rel="nofollow"
-            className="mr-9 text-neutral-800 dark:text-neutral-200"
+            className="mr-3 md:mr-9 text-neutral-800 dark:text-neutral-200"
           >
             Privacidad
           </NavLink>
           <NavLink
             to="/cookies"
             rel="nofollow"
-            className="mr-9 text-neutral-800 dark:text-neutral-200"
+            className="mr-3 md:mr-9 text-neutral-800 dark:text-neutral-200"
           >
             Cookies
           </NavLink>

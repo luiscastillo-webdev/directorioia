@@ -2,7 +2,7 @@ import React from "react";
 
 const Contenido = () => {
   return (
-    <div className="max-w-screen-xl mx-auto md:text-2xl md:px-[6rem] py-[3rem] rounded-xl bg-gray-200">
+    <div className="max-w-screen-xl mx-auto md:text-1xl md:px-[6rem] py-[3rem] rounded-xl bg-gray-200">
       <h2 className="mb-4">20 Cosas interesantes sobre apps IA</h2>
       <h3>1.- Definición de IA</h3>
       <p>

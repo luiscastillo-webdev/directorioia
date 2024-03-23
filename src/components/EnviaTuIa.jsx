@@ -80,7 +80,7 @@ const EnviaTuIa = () => {
       <Encabezado tituloencabezado="Envía tu aplicación" />
       <div className="relative grid mx-auto justify-center">
         <div class="flex flex-col items-center justify-center my-3">
-          <div class="w-[800px] bg-white rounded-lg shadow-md p-10">
+          <div class="sm:w-[100%] md:w-[800px] bg-white rounded-lg shadow-md p-10">
             <h2 class="text-2xl font-bold text-gray-900 mb-4">Enviar tu APP</h2>
             <ContactForm />
           </div>
